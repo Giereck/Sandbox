@@ -14,7 +14,7 @@
     <SolidColorBrush x:Key="MenuItemBackgroundBrush" Color="{StaticResource DefaultMenuBackgroundColor}" />
     <SolidColorBrush x:Key="SubMenuItemBackgroundBrush" Color="{StaticResource DefaultSubMenuBackgroundColor}" />
     <SolidColorBrush x:Key="MenuItemSelectedBackgroundBrush" Color="{StaticResource AccentColor}" />
-    <SolidColorBrush x:Key="MenuItemMouseOverBackgroundBrush" Color="Red" Opacity="0.8" />
+    <SolidColorBrush x:Key="MenuItemMouseOverBackgroundBrush" Color="{DynamicResource AccentColor}" Opacity="0.6" />
     <SolidColorBrush x:Key="MenuItemForegroundBrush" Color="White" />
     <SolidColorBrush x:Key="SelectedMenuItemForegroundBrush" Color="{DynamicResource AccentColor}" />
 </ResourceDictionary>
