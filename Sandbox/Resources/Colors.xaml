@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Colors -->
+    <Color x:Key="DefaultMenuBackgroundColor">#021520</Color>
+    <!--<Color x:Key="DefaultSubMenuBackgroundColor">#0B2636</Color>-->
+    <Color x:Key="DefaultSubMenuBackgroundColor">#021520</Color>
+    <Color x:Key="DefaultBackgroundColor">#436477</Color>
+    <Color x:Key="AccentColor">#F6861F</Color>
+    
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="DefaultBackgroundBrush" Color="{StaticResource DefaultBackgroundColor}" />
+
+    <SolidColorBrush x:Key="MenuItemBackgroundBrush" Color="{StaticResource DefaultMenuBackgroundColor}" />
+    <SolidColorBrush x:Key="SubMenuItemBackgroundBrush" Color="{StaticResource DefaultSubMenuBackgroundColor}" />
+    <SolidColorBrush x:Key="MenuItemSelectedBackgroundBrush" Color="DeepPink" Opacity="0.6" />
+    <SolidColorBrush x:Key="MenuItemMouseOverBackgroundBrush" Color="Red" Opacity="0.8" />
+    <SolidColorBrush x:Key="MenuItemForegroundBrush" Color="White" />
+    <SolidColorBrush x:Key="SelectedMenuItemForegroundBrush" Color="{DynamicResource AccentColor}" />
+</ResourceDictionary>
